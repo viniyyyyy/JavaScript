@@ -18,7 +18,7 @@ button.addEventListener("click", function (e) {
 // Function
 
 function calculoImc(p, a) {
-    imc.value = p / (a*a);
+    imc.value = (p / (a*a)).toFixed(1);
     return imc
 }
 
