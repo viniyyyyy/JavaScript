@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="js.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Indice Massa Corporal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <h2 id="titulo" >Verificação do seu Indice Massa Corporal(IMC)</h2>
+                <form action="" method="post">
+                    <label for="">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+
+                    <label for="">Idade:</label>
+                    <input type="text" name="idade" id="idade" placeholder="Digite sua idade:">
+
+                    <label for="">Peso:</label>
+                    <input type="text" name="peso" id="peso" placeholder="Digite seu peso:">
+
+                    <label for="">Altura:</label>
+                    <input type="text" name="altura" id="altura" placeholder="Digite sua altura:">
+                    
+                    <label for="">Indice Massa Corporal(IMC):</label>
+                    <input type="text" name="imc" id="imc" placeholder="Seu IMC aparecerá logo após de enviar:" readonly>
+
+                    <button type="submit" id="enviar" value="enviar">Enviar
+                </form>
+        </div>            
+    </div>
+    
+    <script src="./js-funcional.js"></script>
+</body>
