@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="js.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Indice Massa Corporal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <h2 id="titulo" >Verificação do seu Indice Massa Corporal(IMC)</h2>
+                <form action="" method="post">
+                    <label for="">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+
+                    <label for="">Idade:</label>
+                    <input type="text" name="idade" id="idade" placeholder="Digite sua idade:">
+
+                    <label for="">Peso:</label>
+                    <input type="text" name="peso" id="peso" placeholder="Digite seu peso:">
+
+                    <label for="">Altura:</label>
+                    <input type="text" name="altura" id="altura" placeholder="Digite sua altura:">
+                    
+                    <label for="">Indice Massa Corporal (IMC):</label>
+                    <input type="text" name="imc" id="imc" placeholder="Seu IMC aparecerá logo após de enviar:" readonly>
+
+                    <label for="">Categoria (IMC):</label>
+                    <input type="text" name="categoria" id="categoria" placeholder="Sua categoria aparecerá logo após de enviar:" readonly>
+
+                    <button type="submit" id="enviar" value="enviar">Enviar
+                </form>
+        </div>
+    </div>
+    <div class="container-table">
+      <div class="table">
+        <table>
+          <h2>Tabela dos Registrados:</h2>
+          <!-- <tr class="category">
+            <th>Abaixo do peso:</th>
+            <th>Peso nomral:</th>
+            <th>Acima do peso</th>
+            <th>Obesidade grau 1:</th>
+            <th>Obesidade grau 2:</th>
+            <th>Obesidade grau 3:</th>
+          </tr> -->
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Categoria</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>vinicius victor</td>
+            <td>17</td>
+            <td>67.9</td>
+            <td>1.77</td>
+            <td>Peso normal</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+        
+    
+    <script src="./js-funcional.js" defer></script>
+</body>
